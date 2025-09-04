@@ -1,8 +1,3 @@
-Got it ✅
-Here’s your updated README with your GitHub screenshot embedded.
-
----
-
 # CYBER-SPEED ⚡
 
 A sleek, cyberpunk-styled **browser speed test** that measures **ping, download, and upload** with a reactive gauge and neon UI. Mobile-friendly, zero-backend, and privacy-respecting.
