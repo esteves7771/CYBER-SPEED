@@ -7,7 +7,7 @@ Here’s your updated README with your GitHub screenshot embedded.
 
 A sleek, cyberpunk-styled **browser speed test** that measures **ping, download, and upload** with a reactive gauge and neon UI. Mobile-friendly, zero-backend, and privacy-respecting.
 
-Live Demo: *(add your GitHub Pages link here)*
+Live Demo: *(https://esteves7771.github.io/CYBER-SPEED/)*
 
 ![CYBER-SPEED Screenshot](https://github.com/esteves7771/CYBER-SPEED/blob/main/Screenshot%202025-09-04%20at%2018.31.07.png?raw=true)
 
