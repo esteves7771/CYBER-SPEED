@@ -24,9 +24,9 @@
             background-color: var(--dark-bg);
             color: var(--neon-cyan);
             text-shadow: 0 0 5px var(--neon-cyan);
-            overflow: hidden;
+            overflow-y: auto; /* Allow vertical scroll */
             display: flex;
-            align-items: center;
+            /* align-items: center; -- Removed to allow scrolling from top on mobile */
             justify-content: center;
             min-height: 100vh;
         }
@@ -482,4 +482,5 @@
     </script>
 </body>
 </html>
+
 
