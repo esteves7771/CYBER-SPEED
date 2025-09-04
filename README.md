@@ -1,8 +1,15 @@
+Got it ✅
+Here’s your updated README with your GitHub screenshot embedded.
+
+---
+
 # CYBER-SPEED ⚡
 
 A sleek, cyberpunk-styled **browser speed test** that measures **ping, download, and upload** with a reactive gauge and neon UI. Mobile-friendly, zero-backend, and privacy-respecting.
 
 Live Demo: *(add your GitHub Pages link here)*
+
+![CYBER-SPEED Screenshot](https://github.com/esteves7771/CYBER-SPEED/blob/main/Screenshot%202025-09-04%20at%2018.31.07.png?raw=true)
 
 ---
 
@@ -42,14 +49,6 @@ Live Demo: *(add your GitHub Pages link here)*
 
 ---
 
-## 🖥️ UI & Controls
-
-* **INITIATE**: starts Ping → Download → Upload in sequence (with small pauses).
-* **Gauge**: animates from 0 → current Mbps; capped visually at 150 Mbps by default.
-* **RERUN**: appears after a sequence completes.
-
----
-
 ## 📱 Mobile-first Notes
 
 * Viewport locked for minimal scrolling.
@@ -68,26 +67,6 @@ Live Demo: *(add your GitHub Pages link here)*
 
 ---
 
-## 🧩 Edge Cases & Sandboxes
-
-Some environments block cross-origin POSTs (e.g., Google Drive/Docs preview, certain in-app browsers).
-This app **detects** those cases and:
-
-* Shows **`Blocked`** for upload (instead of erroring)
-* Completes the rest of the tests normally
-
-Hosting on a normal origin (e.g., GitHub Pages) enables full functionality.
-
----
-
-## ⚙️ Configuration Tips
-
-* **Gauge max** (default 150 Mbps): adjust `maxSpeed` in `updateGauge()` to fit your audience.
-* **Download size**: currently 50 MB for better accuracy on fast links (`__down?bytes=50000000`).
-* **Upload sizes**: runs multiple (1/2/5 MB) and takes the best reading when allowed.
-
----
-
 ## 🧪 Troubleshooting
 
 * **Upload says “Blocked”**: you’re likely in a blob/sandboxed viewer. Open via a normal origin (local server or GitHub Pages).
@@ -96,7 +75,7 @@ Hosting on a normal origin (e.g., GitHub Pages) enables full functionality.
 
 ---
 
-## 🗺️ Roadmap (nice-to-haves)
+## 🗺️ Roadmap
 
 * Multi-server selection (EU/US/Asia)
 * Jitter & packet-loss approximations
@@ -106,38 +85,9 @@ Hosting on a normal origin (e.g., GitHub Pages) enables full functionality.
 
 ---
 
-## 📜 License
-
-MIT — do whatever you want, just keep the license.
-
----
-
 ## 🙌 Credits
 
 * Cloudflare Speed Test sinks for bandwidth endpoints
 * ipapi.co for IP & ISP info
 * Typeface: Share Tech Mono (Google Fonts)
 * Built with ❤️ (and a sprinkle of AI copilot)
-
----
-
-## 🖼️ Screenshots
-
-*Add your screenshots here*
-
-```
-/assets/screenshot-01.png
-/assets/screenshot-02.png
-```
-
----
-
-## 🏷️ Badges (optional)
-
-You can add shields if you like:
-
-```
-![status](https://img.shields.io/badge/status-active-brightgreen)
-![license](https://img.shields.io/badge/license-MIT-blue)
-![made-with](https://img.shields.io/badge/made%20with-HTML5%20%7C%20JS%20%7C%20Tailwind-orange)
-```
